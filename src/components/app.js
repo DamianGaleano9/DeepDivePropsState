@@ -7,7 +7,7 @@ export default class App extends Component {
     return (
       <div className='app'>
         <h1>React, Props, and State Deep Dive</h1>
-        <h2><JournalList/></h2>
+        <h2><JournalList heading="list 1"/></h2>
       </div>
     );
   }

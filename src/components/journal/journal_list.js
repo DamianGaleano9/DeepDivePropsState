@@ -15,13 +15,17 @@ export default class JournalList extends Component {
 
         this.state = {
             journalData: rawJournalData,
+            greeting: "Heyyyyyyy Mr",
             isOpen: true
         }
     }
     render() {
         return (
             <div>
-                <h2>Heyyyy I'm here</h2>
+                <h2>{this.state.greeting}</h2>
+                <h2>{this.props.heading}</h2>
+
+
             </div>
         )
     }
